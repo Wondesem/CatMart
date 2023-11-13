@@ -1,0 +1,134 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    width: 2.8rem;
+    background-color: transparent;
+}
+.nav-logo .catmart{
+    font-size: 1.25rem;
+    color: #d1bebe;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: -0.31rem;
+}
+.loggedout{
+    position: relative;
+    left: -15%;
+}
+.loggedout .menu{
+    display: flex;
+    color: #515151;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: white;
+    cursor: pointer;
+}
+.loggedout .menu .market{
+    position: absolute;
+    left: -212%;   
+}
+
+.search{
+    position: relative;
+    justify-content: center;
+    outline: none;
+}
+.search form input{
+    width: 19rem;
+    height: 2.2rem;
+    justify-content: center;
+    padding-left: 1rem;
+    font-size: 1.125rem;
+    border-radius: 1.5rem 1.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d1bebe;
+    margin-bottom: 0.8%;
+    outline: none;
+}
+input[type=text]:focus {
+    border: 1px solid rgb(158, 151, 151);
+  }
+  .search form .search-icon{
+    position: absolute;
+    display: inline-block;
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-left: -11.7%;
+    bottom: auto;
+    border-radius: 50%;
+    background-color: transparent;
+    border-color: transparent;
+}
+.search form .search-icon:hover{
+background-color: #e2f3f6;
+border-style: solid;
+border-color: transparent;
+outline: none;
+}
+.search form img{
+    width: 1.125rem;    
+}
+.nav-login-cart{
+display: flex;
+gap: 2.5rem;
+justify-content: center;
+align-items: center;
+}
+/* .nav-login-cart .signup{
+    color: #515151;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-login-cart .login{
+    color: #515151;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: white;
+    cursor: pointer;
+} */
+.nav-login-cart img{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 2.5rem;
+    width: 4rem;
+}
+.nav-login-cart .cartblock{
+    position: relative;
+    display: flex;
+    margin-right: 1.5rem;
+    }
+.nav-login-cart .cartblock .counter{
+    position: absolute;
+    transform: translateX(50%);
+    right: 28px;
+    top: 0.25rem;
+    color: #ae1426;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.nav-login-cart .cartblock .cart-text{
+    position: absolute;
+    transform: translateX(85%);
+    right: 0px;
+    top: 1.2rem;
+    font-size: .8rem;
+    color: rgb(146, 139, 193);
+    font-weight: 600;
+}

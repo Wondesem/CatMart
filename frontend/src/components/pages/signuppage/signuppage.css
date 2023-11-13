@@ -1,0 +1,10 @@
+.container-signup{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    width: 50%;
+    
+}
+.container-signup .form{
+    margin-top: 1.5rem;
+}
